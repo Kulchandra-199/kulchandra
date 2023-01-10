@@ -1,7 +1,7 @@
 import React from 'react';
 import Img1 from "../../assets/Next-ecommerce.jpg";
 import "./project.css"
-import { Link } from 'react-router-dom'
+
 
 
 // function redirect() {
