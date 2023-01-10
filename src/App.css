@@ -9,9 +9,9 @@
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color-dark: hs1(var(--hue), var(--sat), 46%); 	
-  --body-color: #FDF5DF;
-  --container-color: #fff;
+  --text-color-dark: white; 	
+  --body-color: #fffcec;
+  --container-color: #F5deb3;
 
 
 --body-font:"poppins", sans-serif;
@@ -46,6 +46,7 @@
   margin: 0px ;
   padding:  0px;
   box-sizing: border-box;
+  
 }
 @media screen and (max-width: 992px ){
   :root{
@@ -73,12 +74,12 @@ body,button,input,textarea{
 
 
 body {
-  background-color: var(--body-color);
+  background-color: #fff8ea;
   color: var(--text-color);
 }
 
 h1, h2, h3{
-  color: var(--title-color);
+  color: black;
   font-weight: var(--font-semi-bold);
 
 }

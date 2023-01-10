@@ -7,7 +7,8 @@ import Skills from './components/Skills/Skills.jsx';
 import Qualification from './components/qualification/Qualification';
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer';
-
+import Project from './components/Projects/Project';
+import Qualification1 from './components/qualification/Qualification1.jsx';
 
 const App = () => {
   return (
@@ -15,9 +16,9 @@ const App = () => {
       <Header />
       <main className='main'>
         <Home />
-        <About />
         <Skills />
-        <Qualification />
+        <Project />
+        <Qualification1 />
         <Contact />
         <Footer />
       </main>

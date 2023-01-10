@@ -8,6 +8,7 @@ const Header = () => {
     const[Toggle, showMenu] = useState(false); 
 
   return (
+    
     <header className="header">
         <nav className='nav container'>
             <a href="index.html" className="nav_logo"> Kulchandra </a>
@@ -21,31 +22,19 @@ const Header = () => {
                     </li>
 
                     <li className='nav_item'>
-                        <a href="#about" className='nav_link'>
-                            <i className="uil uil-user nav_icon"></i> About
-                        </a>
-                    </li>
-
-                    <li className='nav_item'>
                         <a href="#skills" className='nav_link'>
                             <i className="uil uil-file nav_icon"></i>
                             Skills
                         </a>
                     </li>
-
                     <li className='nav_item'>
-                        <a href="#services" className='nav_link'>
-                            <i className="uil uil-briefcase-alt nav_icon"></i>
-                            Services
+                        <a href="#project" className='nav_link'>
+                            <i className="uil  nav_icon"></i>
+                            Projects
                         </a>
                     </li>
+                    
 
-                    <li className='nav_item'>
-                        <a href="#portfolio" className='nav_link'>
-                            <i className="uil uil-scenery nav_icon"></i>
-                            Portfolio
-                        </a>
-                    </li>
 
                     <li className='nav_item'>
                         <a href="#contact" className='nav_link'>
@@ -63,7 +52,12 @@ const Header = () => {
                 <i className= "uil uil-apps" ></i>
             </div>
         </nav>
+        
     </header>
+    
+    
+    
+    
   )
 }
 
