@@ -57,8 +57,8 @@ const data = () => {
       <h3 className="home_subtitle">Developer</h3>
       <p className="home_description">Front-end Developer Creating User-Friendly Scalabale Dynamic web-pages</p>
 
-      <a href="#contact" target="_blank" >
-        <button className="button-50" role="button">Say Hello</button>
+      <a href="#contact"  >
+        <button className="button-50" >Say Hello</button>
       </a>
     </div>
   );
