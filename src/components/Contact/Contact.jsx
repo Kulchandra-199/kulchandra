@@ -13,7 +13,7 @@ const Contact = () => {
     emailjs.sendForm('service_mo6s8aa', 'template_apo25da', form.current, 'PpEDV1oA40c6pGS5l')
 
     e.target.reset()
-    
+
 
   };
 
@@ -31,7 +31,7 @@ const Contact = () => {
               <h3 className="contact_card-title">Email</h3>
               <span className="contact_card-data">kulchandrakandel@gmail.com</span>
 
-              <a className="contact_button">Write Me  <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+              <span className="contact_button">Write Me  <i className="bx bx-right-arrow-alt contact_button-icon"></i></span>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
             <h3 className="contact_card-title">Discord</h3>
             <span className="contact_card-data">Kulchandra#0019</span>
 
-            <a href="mailto:kulchandrakandel@gmail.com.com" className="contact_button">Write Me  <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+            <span className="contact_button">Write Me  <i className="bx bx-right-arrow-alt contact_button-icon"></i></span>
           </div>
         </div>
 
